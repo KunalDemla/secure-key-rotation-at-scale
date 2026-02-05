@@ -125,7 +125,7 @@ tend to increase complexity without providing strong guarantees.
 ## Diagram: Cron-Based Rotation in Multi-Pool Architecture
 
 > ![Figure 2](/diagrams/naive-cron-multi-pool.png)
-> Figure 2: In a multi-pool architecture, independent cron schedulers trigger key rotation jobs concurrently.
+> Figure 2: In a multi-pool architecture, independent cron schedulers trigger key rotation jobs concurrently.  
 Each job operates on shared key metadata without global coordination, leading to race conditions and inconsistent key state.
 
 ---
