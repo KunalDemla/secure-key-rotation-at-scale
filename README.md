@@ -15,6 +15,14 @@ This repository documents **real-world failure modes of cron-based key rotation 
 
 This is a **design- and reasoning-first repository**, focused on architecture, tradeoffs, and lessons learned rather than vendor-specific implementations.
 
+This repository accompanies a detailed write-up on the design and operational
+challenges of secure key rotation in distributed systems. 
+ 
+Read the full article:
+[Why Secure Key Rotation Fails in Distributed Systems (and How to Fix It)](
+https://kunaldemla.medium.com/why-secure-key-rotation-fails-in-distributed-systems-and-how-to-fix-it-ed789eec8203)
+
+
 ---
 
 ## The Core Problem
