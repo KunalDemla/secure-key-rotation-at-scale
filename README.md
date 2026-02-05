@@ -43,14 +43,27 @@ At scale, this mismatch becomes a security and reliability risk.
 
 ---
 
+## Motivation
+
+Key rotation is often treated as a background maintenance task.
+In distributed, multi-pool systems, it is a high-risk security operation.
+
+This repository documents a production-inspired design for safe,
+auditable, and non-overlapping key rotation, focusing on:
+- Execution guarantees
+- Failure safety
+- Operational realities
+- Human factors in incident scenarios
+---
+
 ## Repository Structure
 
 ```text
 .
-├── docs/                # Blog-style deep dives (problem → failures → solutions)
-├── diagrams/            # Architecture and execution flow diagrams
-├── examples/            # Conceptual cron and orchestration examples
 ├── design-doc/          # End-to-end design document
+├── diagrams/            # Architecture and execution flow diagrams
+├── docs/                # Blog-style deep dives 
+├── examples/            # Conceptual cron and orchestration examples
 ├── lessons-learned/     # Production insights and takeaways
 └── LICENSE
 ```
